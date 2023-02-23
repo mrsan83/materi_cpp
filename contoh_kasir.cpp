@@ -55,7 +55,7 @@ int main(){
   cout<<"Nama Buah\t Berat\t Total\n";
 
   for(int j=0;j<=3;j++){
-    if(beli[j-1]!=0){
+    if(beli[j-1]>0&&beli[j-1]<5){
       cout<<namabuah[j-1]<<"\t\t "<<berat[j-1]<<" kg\t "<<"Rp "<<berat[j-1]*harga[j-1]<<endl;
       bayar=bayar+berat[j-1]*harga[j-1];
     }
