@@ -1,0 +1,19 @@
+Bagian utama dalam c++ yaitu header dan fungsi utama (main).
+Header merupakan sebuah predefined standard pada library functions. Header ditulis dengan #include.
+Fungsi utama dalam c++ disebut sebagai fungsi main. Fungsi main harus ada dalam program c++ yang kita buat.
+Cara deklarasi fungsi main: <tipe_data> <spasi> main(){ }. Contoh: int main(){}
+
+Contoh struktur c++:
+1.
+#include <iostream>
+
+int main(){
+  koding
+}
+
+2.
+#include "stdio.h"
+
+void main(){
+  koding
+}
