@@ -1,7 +1,7 @@
 //Cara deklarasi 3
 
 #include <iostream>
-using namespace std;
+using namespace std;                      //Agar tidak perlu menuliskan std::cout maupun std::cin. Cukup cout atau cin saja.
 
 int main(){
   int a;
