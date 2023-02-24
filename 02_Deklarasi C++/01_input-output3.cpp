@@ -1,4 +1,4 @@
-//Cara deklarasi 1
+//Cara deklarasi 3
 
 #include <iostream>
 using namespace std;
