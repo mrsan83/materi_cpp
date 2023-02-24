@@ -3,9 +3,9 @@
 using namespace std;
 
 int main(){
-  string namabuah[5];
-  int i=0,beli[5],harga[5],bayar=0,uang;
-  float berat[5];
+  string namabuah[10];
+  int i=0,beli[10],harga[10],bayar=0,uang;
+  float berat[10];
 
   cout<<"=========================\n";
   cout<<"    REJEKI ANAK SOLEH\n";
@@ -47,14 +47,14 @@ int main(){
       i++;
     }while(beli[i-1]>0);
 
-  system("clear");
+    cout<<endl;
 
   cout<<"=================================\n";
   cout<<"\t DAFTAR BELANJA\n";
   cout<<"=================================\n";
   cout<<"Nama Buah\t Berat\t Total\n";
 
-  for(int j=0;j<=3;j++){
+  for(int j=1;beli[j]>0;j++){
     if(beli[j-1]>0&&beli[j-1]<5){
       cout<<namabuah[j-1]<<"\t\t "<<berat[j-1]<<" kg\t "<<"Rp "<<berat[j-1]*harga[j-1]<<endl;
       bayar=bayar+berat[j-1]*harga[j-1];
@@ -79,5 +79,3 @@ int main(){
   
   cout<<"=================================\n\n";
   cout<<" TERIMA KASIH TELAH BERBELANJA\n\n";
-
-}
