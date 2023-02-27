@@ -1,0 +1,16 @@
+KEYWORD merupakan kata-kata standar yang bermakna khusus dan tidak dapat diubah oleh programmer.
+Contoh keyword dalam c++ yaitu:
+1.  Keywword Tipe Data   : int, char, float, dll.
+2.  Keyword Percabangan  : if, else, switch, case, break, default.
+3.  Keyword Looping      : for, do, whlie.
+
+IDENTIFIER merupakan nama unik untuk menandakan sebuah variabel, fungsi, struct, class, dll.
+Aturan identifier:
+1.  Identifier harus berbeda dengan keyword.
+2.  Identifier dapat berupa huruf, kata, gabungan huruf dan angka, atau gabungan kata dan angka.
+    Jika terdiri dua buah kata, maka dapat dipisahkan dengan underscore.
+    Contoh: a, a1, nama, nama1, nama_lengkap.
+3.  Angka tidak boleh menjadi karakter pertama pada sebuah identifier.
+    Contoh: 1nama, 2no tidak dapat digunakan menjadi identifier.
+4.  Identifier bersifat case sensitif, sehingga huruf kecil dan besar dibedakan.
+    Contoh: nama, Nama, NAMA merupakan tiga buah identifier yang berbeda.
