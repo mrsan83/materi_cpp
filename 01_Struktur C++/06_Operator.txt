@@ -1,0 +1,36 @@
+OPERATOR
+1.  Operator Penugasan
+    Simbol operator penugasan yaitu tanda sama dengan (=).
+    Operator ini berfungsi untuk memberikan nilai dalam sebuah variabel.
+
+2.  Operator Aritmatika
+    Operasi Matematika    Bahasa C++
+    Penjumlahan (+)       +
+    Pengurangan (-)       -
+    Perkalian (×)         *
+    Pembagian (÷)         /
+    
+3.  Operator Relasional
+    Aljabar     Bahasa C++
+    =           ==
+    ≠           !=
+    <           <
+    >           >
+    ≤           <=
+    ≥           >=
+    
+4.  Operator Logika
+    Logika      Bahasa C++
+    And         &&
+    Or          ||
+    Not         !
+    
+5.  Operator Increment dan Decrement
+    Bahasa C++    Ket
+    a++           a+1
+    a--           a-1
+    
+6.  Operator Kondisional
+    Cara pendeklarasian: (kondisi ? ekspresi_1 : ekspresi_2)
+    Jika kondisi bernilai benar, maka ekspresi_1 akan menjadi return.
+    Contoh: ((a<1) ? 1:0)
