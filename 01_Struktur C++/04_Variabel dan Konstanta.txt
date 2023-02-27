@@ -1,8 +1,21 @@
 VARIABEL merupakan sebuah tempat untuk menyimpan sebuah nilai.
-Cara mendefinisikan/mendeklarasikan variabel: tipe_data <spasi> identifier_variabel;
-Contoh: int a;
-Variabel dapat diberikan nilai awal. Contoh: int a=13;
-Variabel yang memiliki tipe data sama, dapat dideklarasikan secara ringkas. Contoh: int a, b, c;
+1.  Cara mendefinisikan/mendeklarasikan variabel: tipe_data <spasi> identifier_variabel;
+    Contoh: int a;
+2.  Variabel dapat diberikan nilai awal. Contoh: int a=13;
+3.  Variabel yang memiliki tipe data sama, dapat dideklarasikan secara ringkas. Contoh: int a, b, c;
+
+Variabel dapat dideklarasikan menjadi variabel lokal dan variabel umum.
+1.  Variabel lokal dideklarasikan di dalam sebuah fungsi, sehingga fungsi lain tidak dapat menggunakan variabel tersebut.
+    Contoh:
+    int main(){
+        int a;
+    }
+2.  Variabel umum dideklarasikan di luar fungsi, sehingga fungsi lain dapat menggunakan variabel tersebut.
+    Contoh:
+    int a;
+    int main(){
+        
+    }
 
 KONSTANTA merupakan sebuah tempat dari suatu nilai yang bersifat tetap sehingga tidak dapat diubah nilainya.
 Konstanta dapat dideklarasikan dengan 2 cara, yaitu
