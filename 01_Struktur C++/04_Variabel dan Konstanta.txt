@@ -1,0 +1,14 @@
+VARIABEL merupakan sebuah tempat untuk menyimpan sebuah nilai.
+Cara mendefinisikan/mendeklarasikan variabel: tipe_data <spasi> identifier_variabel;
+Contoh: int a;
+Variabel dapat diberikan nilai awal. Contoh: int a=13;
+Variabel yang memiliki tipe data sama, dapat dideklarasikan secara ringkas. Contoh: int a, b, c;
+
+KONSTANTA merupakan sebuah tempat dari suatu nilai yang bersifat tetap sehingga tidak dapat diubah nilainya.
+Konstanta dapat dideklarasikan dengan 2 cara, yaitu
+1.  Menggunakan #define
+    #define <spasi> identifier_konstanta <spasi> nilai_konstanta;
+    Contoh: #define diskon 0.1;
+2.  Menggunakan const
+    const <spasi> tipe_data <spasi> identifier_konstanta <spasi> nilai_konstanta;
+    Contoh: const float diskon 0.1;
