@@ -1,5 +1,5 @@
 Tipe data yang sering digunakan dalam c++ yaitu:
-1. Tipe data bilangan
+1.  Tipe data bilangan
     Tipe Data     Jenis Data
     int           bilangan bulat
     float         bilangan real
@@ -7,7 +7,7 @@ Tipe data yang sering digunakan dalam c++ yaitu:
     long          bilangan bulat
     short         bilangan bulat
 
-2. Tipe data karakter
+2.  Tipe data karakter
     Tipe Data     Jenis Data        Ket
     char          karakter          -
     string        kata/kalimat      harus menambah #include <string>
