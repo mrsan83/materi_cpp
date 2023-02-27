@@ -1,0 +1,28 @@
+FUNGSI merupakan subprogram yang dapat digunakan oleh fungsi main maupun fungsi yang lain.
+Hal yang perlu diperhatikan dalam membuat sebuah fungsi yaitu
+1.  Pendeklarasian fungsi
+    Pendeklarasian fungsi hampir sama dengan pendeklarasian variabel.
+    Cara deklarasi fungsi: tipe_data <spasi> identifier_fungsi ();
+    Contoh: int sum();
+    
+2.  Penulisan koding
+    Cara koding fungsi:
+      tipe_data <spasi> identifier_fungsi (){
+        koding
+        return niali;
+      }
+      
+    Sebuah fungsi juga dapat diberikan parameter.
+    Contoh:
+    int sum (int a,b){
+      cout<<a+b;
+      return a+b;
+    }
+    
+3.  Memanggil fungsi
+    Cara memanggil fungsi: tuliskan identifier_fungsi(); di dalam fungsi yang akan menggunakannya.
+    Contoh:
+    int main(){
+      sum();
+    }
+  
