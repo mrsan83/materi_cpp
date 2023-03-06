@@ -23,7 +23,7 @@ int main(){
     cout<<endl<<endl;
     cout<<"Coba lagi? (Y/T)";
     cin>>coba;
-	} while(coba=='y'||coba=='Y');
+ } while(coba=='y'||coba=='Y');
 
 }
 
